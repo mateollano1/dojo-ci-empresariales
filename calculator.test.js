@@ -7,7 +7,7 @@ describe("add operations", () => {
     });
 
     test('adds 5 + 5 to equal 10', () => {
-        expect(cal.add(5, 5)).toBe(10);
+        expect(cal.add(5, 5)).toBe(0);
     });
 })
 

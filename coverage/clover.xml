@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1590243728976" clover="3.2.0">
-  <project timestamp="1590243728976" name="All files">
+<coverage generated="1590250843746" clover="3.2.0">
+  <project timestamp="1590250843746" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="18" coveredelements="18" complexity="0" loc="14" ncloc="14" packages="1" files="2" classes="2"/>
     <file name="app.js" path="/home/mateo/Documentos/dojoTest/app.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
