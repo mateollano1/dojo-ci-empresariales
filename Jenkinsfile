@@ -1,21 +1,18 @@
 pipeline {
-  agent {
-    node {
-      label 'docker'
-    }
-
-  }
+  agent any
   stages {
-    stage('Build') {
+    stage('install') {
       steps {
         echo 'init build'
         sh 'npm install'
+      }
+    }
+
+    stage('test') {
+      steps {
         sh 'npm test'
       }
     }
 
-  }
-  environment {
-    nodejs = 'nodejs'
   }
 }
